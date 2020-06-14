@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/sh
+
+#RUN apk add dos2unix && dos2unix /entry.sh
 
 RUN composer install && \
     cp .env.example .env && \
